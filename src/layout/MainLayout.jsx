@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from './Header.jsx';
 import Footer from './Footer';
-import '../styles/layout/Layout.scss'; 
+import '../styles/layout/MainLayout.scss'; 
 function MainLayout({ children }) {
   return (
-    <div className="layout">
+    <div className="MainLayout">
       <Header />
       <main>
         {children}
