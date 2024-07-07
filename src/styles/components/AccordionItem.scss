@@ -1,0 +1,32 @@
+.accordion_item {
+   
+    margin: 20px;
+    border-radius: 5px;
+    background-color: red;
+   
+
+  }
+  
+  .accordion_title {
+   
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+   
+  }
+  span{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .accordion_content {
+    padding: 5px;
+    background-color: #fff;
+  color: black;
+  border-color: none;
+ 
+}
+  
