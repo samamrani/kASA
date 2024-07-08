@@ -1,0 +1,29 @@
+
+  
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .tag-container {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .tag-list {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .tag {
+    background: #FF6060;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 5px;
+    font-size: 10px;
+  }
+  

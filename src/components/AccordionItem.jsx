@@ -10,6 +10,8 @@ function AccordionItem({ title, content }) {
     setIsOpen(!isOpen);
   };
 
+  const isArray = (value) => value instanceof Array; 
+
   return (
     <div className='accordion_item'>
       <div className='accordion_title' onClick={toggleAccordion}> {/* Titre de l'item de l'accordéon, cliquable */}
@@ -19,7 +21,19 @@ function AccordionItem({ title, content }) {
        {/* Condition pour afficher le contenu seulement si isOpen est true */}
       {isOpen && (
         <div className='accordion_content'>
-          <p>{content}</p> {/* Affichage du contenu passé en prop */}
+       {isArray(content) ? (
+            <ul>
+              {content.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          ) : (
+            <p>{content}</p>
+          )}
+          
+
+            
+           {/* Affichage du contenu passé en prop */}
         </div>
       )}
     </div>
