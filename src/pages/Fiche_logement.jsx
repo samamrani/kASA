@@ -34,8 +34,8 @@ const FicheLogement = () => {
     <div className='logement'>
       <img className='logement_cover' src={logement.cover} alt={`Cover of ${logement.title}`} />
 
+      <div className='logement_logement'></div>
       <div className='logement_container'>
-
         <div className='logement_tag'>
           <h1>{logement.title}</h1>
           <p>{logement.location}</p>
@@ -55,8 +55,7 @@ const FicheLogement = () => {
               ></em>
             ))}
           </div>
-
-        </div>
+        </div>  
       </div>
       
       <div className='logement_accordion'>
@@ -67,6 +66,7 @@ const FicheLogement = () => {
           <AccordionItem title="Équipements" content={logement.equipments} /> 
         </div> 
       </div>
+
     </div>
   );
 };

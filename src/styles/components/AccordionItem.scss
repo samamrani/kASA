@@ -1,19 +1,15 @@
-.accordion_item {
-   
-    margin: 20px;
+.accordion_item {  
     border-radius: 5px;
     background-color:   #FF6060;
-   
-  
   }
   
   .accordion_title {
-   
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
    
   }
   span{
@@ -21,12 +17,14 @@
     flex-direction: row;
   }
   
-  
   .accordion_content {
-    padding: 5px;
-    background-color: #fff;
+  padding: 5px;
+  background-color: #fff;
   color: black;
   border-color: none;
+
  
 }
-  
+  ul{
+    list-style-type: none;
+  }

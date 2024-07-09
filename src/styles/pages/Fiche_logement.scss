@@ -1,8 +1,10 @@
 .logement_container{
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-  
+    align-items: center;
+    flex-wrap: wrap;  
+    margin-bottom: 20px; 
+
 }
 
 .logement_cover{
@@ -10,9 +12,12 @@
         height: 643px;
         object-fit: cover;
         border-radius: 20px;
+        margin-bottom: 20px; 
     }  
     .logement_tag{
         color:#FF6060; 
+      
+        
     } 
 .logement_tag p {
     color: black;
@@ -20,11 +25,14 @@
 
 .logement_profile{
     display: flex;
+    align-items: center;
+    
 }
 
 .logement_name{
     padding:1px;
-    color:#FF6060;  
+    color:#FF6060; 
+    margin-right: 10px; 
 }
 
 .logement_photo{
@@ -36,6 +44,8 @@
 
 .logement_star{
 color: rgb(189, 186, 186);
+
+
 }
 
 .fas {
@@ -45,4 +55,17 @@ color: rgb(189, 186, 186);
   .fas.colored {
     color:#FF6060;  
   }
+
+.logement_accordion{
+    display: flex;
+ 
+ gap: 140px;
+}
+
+  .logement_description,
+  .logement_equipement{
+    color: white;
+    width: 100%;
+  }
   
+ 
