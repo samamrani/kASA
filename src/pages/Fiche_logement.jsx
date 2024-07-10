@@ -4,6 +4,7 @@ import records from '../Data.json';
 import Tags from '../components/Tags';
 import AccordionItem from '../components/AccordionItem';
 import "../styles/pages/Fiche_logement.scss";
+import Carrousel from '../components/Carrousel';
 
 const FicheLogement = () => {
   // ID du logement depuis l'URL
@@ -32,9 +33,11 @@ const FicheLogement = () => {
 
   return (
     <div className='logement'>
-      <img className='logement_cover' src={logement.cover} alt={`Cover of ${logement.title}`} />
+      {/* <img className='logement_cover' src={logement.cover} alt={`Cover of ${logement.title}`} /> */}
+  
+      <Carrousel images={logement.pictures}/> 
 
-      <div className='logement_logement'></div>
+   
       <div className='logement_container'>
         <div className='logement_tag'>
           <h1>{logement.title}</h1>
