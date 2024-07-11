@@ -1,10 +1,11 @@
 .banner_commun {
     margin-top: 30px;
-    height: 223px;
+    height: 250px;
     color: #fff;
     border-radius: 25px;
     box-shadow: 0px 5px 10px rgb(66, 58, 58);
 }
+
 
 .banner {
     background: url("../../assets/images/Mask_Banner.jpg");
@@ -13,7 +14,6 @@
     border-radius: 25px;
 }
 
-
 .banner h1 {
     display: flex;
     align-items: center;
@@ -21,7 +21,6 @@
     margin: 0;
     height: 100%;
 }
-
 
 @media (max-width: 768px) {
     .banner h1 { 

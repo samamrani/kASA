@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import records from '../Data.json';
-import Tags from '../components/Tags';
-import AccordionItem from '../components/AccordionItem';
-import "../styles/pages/Fiche_logement.scss";
-import Carrousel from '../components/Carrousel';
+import records from '../data/Data.json';
+import Tags from '../components/Tags.jsx';
+import AccordionItem from '../components/AccordionItem.jsx';
+import "../styles/pages/_ficheLogement.scss";
+import Carrousel from '../components/Carrousel.jsx';
 
 const FicheLogement = () => {
   // ID du logement depuis l'URL
@@ -24,7 +24,7 @@ const FicheLogement = () => {
    
     console.log(`Nouvelle note: ${value}`);
   };
-
+// ??????????????AFFICHE LA PAGE 404
   if (!logement) {
     return <div>Logement non trouvé</div>;
   }

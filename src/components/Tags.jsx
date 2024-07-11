@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/Tags.scss';
+import '../styles/components/_tags.scss';
 
 // Composant Tags qui reçoit les tags en tant que prop
 const Tags = ({ tags }) => {

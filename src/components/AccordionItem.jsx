@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../styles/components/AccordionItem.scss";
+import "../styles/components/_accordionItem.scss";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function AccordionItem({ title, content }) {

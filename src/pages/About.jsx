@@ -1,7 +1,7 @@
 import React from 'react';
 import Background from '../assets/images/Background.jpg'
 import Accordion from '../components/Accordion';
-import "../styles/pages/About.scss"
+import "../styles/pages/_about.scss"
 
 function About() {
   return (

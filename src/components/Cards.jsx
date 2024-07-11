@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import records from '../Data.json';
-import '../styles/components/Cards.scss';
+import records from '../data/Data.json';
+import '../styles/components/_cards.scss';
 
 // récupère et affiche une liste de logements sous forme de cartes
 const Cards = () => {

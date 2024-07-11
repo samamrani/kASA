@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/components/Carrousel.scss";
+import "../styles/components/_carrousel.scss";
 
 function Carrousel({ images }) {
     // Déclaration de l'état pour suivre l'index de l'image actuelle

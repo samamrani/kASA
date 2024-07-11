@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header.jsx';
 import Footer from './Footer';
-import '../styles/layout/MainLayout.scss'; 
+import '../styles/layout/_mainLayout.scss'; 
 function MainLayout({ children }) {
   return (
     <div className="MainLayout">
