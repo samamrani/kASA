@@ -1,0 +1,28 @@
+html, 
+body {
+    height: 100%;
+}
+
+body {
+  margin: 0;
+  margin: 40px auto 0 auto;
+  padding: 0 40px;
+  max-width: 1440px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+/* Définit que l'élément avec l'ID 'root' doit occuper 100% de la hauteur disponible */
+#root{
+  height: 100%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+span{
+  display: flex;
+  flex-direction: row;
+}

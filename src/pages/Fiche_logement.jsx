@@ -5,6 +5,7 @@ import Tags from '../components/Tags.jsx';
 import AccordionItem from '../components/AccordionItem.jsx';
 import "../styles/pages/_ficheLogement.scss";
 import Carrousel from '../components/Carrousel.jsx';
+import NotFound from '../pages/NotFound.jsx';
 
 const FicheLogement = () => {
   // ID du logement depuis l'URL
@@ -24,16 +25,15 @@ const FicheLogement = () => {
    
     console.log(`Nouvelle note: ${value}`);
   };
-// ??????????????AFFICHE LA PAGE 404
+
   if (!logement) {
-    return <div>Logement non trouvé</div>;
+    return <NotFound />;
   }
 
   const etoile = [1, 2, 3, 4, 5];
 
   return (
     <div className='logement'>
-      {/* <img className='logement_cover' src={logement.cover} alt={`Cover of ${logement.title}`} /> */}
   
       <Carrousel images={logement.pictures}/> 
 

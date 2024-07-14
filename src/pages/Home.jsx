@@ -6,7 +6,7 @@ function Home() {
     return (
         <div role="main">
                 <Banner>
-                    <div className="banner banner_commun">
+                    <div className="banner">
                         <h1>Chez vous, partout et ailleurs</h1>
                     </div>
                 </Banner>

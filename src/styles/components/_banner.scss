@@ -1,37 +1,30 @@
-.banner_commun {
-    margin-top: 30px;
-    height: 250px;
-    color: #fff;
-    border-radius: 25px;
-    box-shadow: 0px 5px 10px rgb(66, 58, 58);
-}
-
-
 .banner {
-    background: url("../../assets/images/Mask_Banner.jpg");
+    background: url("../../assets/images/BackgroundFilter.png"), url("../../assets/images/bannerHome.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 25px;
-}
-
-.banner h1 {
+    height: 223px;
+    margin-bottom: 43px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    height: 100%;
-}
-
-@media (max-width: 768px) {
-    .banner h1 { 
-        font-size: 1rem; 
+  
+    h1 {  
+      margin: 0;
+      font-size: 4.5rem;
+      color: white;
+      text-align: center;
     }
-    .banner {
-        margin-top: 0px;
-        height: 111px;
-        background-position:left;
+  
+    @media (max-width: 768px) {
+      height: 111px;
+      border-radius: 10px;
+      background-position: left;
+  
+      h1 {
+        font-size: 1.5rem;
+      }
     }
-    .banner, .banner_commun { 
-        border-radius: 10px; 
-    }
-}
+  }
+  
