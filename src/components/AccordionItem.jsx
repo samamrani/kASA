@@ -16,7 +16,7 @@ function AccordionItem({ title, content }) {
     <div className='accordion_item'>
       <div className='accordion_title' onClick={toggleAccordion}> {/* Titre de l'item de l'accordéon, cliquable */}
         <h3>{title}</h3>
-         <span>{isOpen ? <i className="fas fa-chevron-up"></i> : <i className="fas fa-chevron-down"></i>}</span>
+         <span>{isOpen ?  <i className="fas fa-chevron-down"></i> : <i className="fas fa-chevron-up"></i> }</span>
       </div>
        {/* Condition pour afficher le contenu seulement si isOpen est true */}
       {isOpen && (
