@@ -27,8 +27,26 @@
  
 }
 
+@media (max-width: 768px){
+  .footer{
+    width: 50%;
+
+  .text_footer p { 
+    font-size: 18px; 
+}
+}
+
 @media (max-width: 450px) {
+
+  
   .text_footer p { 
       font-size: 12px; 
+      
   }
+}  }
+
+@media (max-width: 450px) {
+
+  .footer{
+    width: 100%;}
 }

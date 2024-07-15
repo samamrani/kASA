@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 15px 15px;
     cursor: pointer;
     background: #FF6060;
 
@@ -32,7 +32,7 @@
     padding: 10px 15px;
     background-color:#F6F6F6;
     color: #000;
-    min-height: 150px;
+    min-height: 140px;
    
   }
   .accordion_content ul{
@@ -44,7 +44,9 @@
 
 @media (max-width: 768px) {
   .accordion_item {
- 
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
     .accordion_title {
       
       h3 {
@@ -61,4 +63,8 @@
       padding: 8px 10px;
     }
   }
+}
+@media (max-width: 450px){
+ 
+
 }

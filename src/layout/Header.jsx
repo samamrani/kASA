@@ -8,20 +8,21 @@ function Header() {
     <header>
       <nav>
         <div className="logo">
-          <NavLink exact to="/" activeClassName="active">
+          <NavLink to="/" >
             <img src={logo} alt="Logo du site Kasa" />
           </NavLink>
         </div>
         <div className="nav-links-container">
-          <NavLink exact className="nav-links" to="/" activeClassName="active">
+          <NavLink to="/" className="nav-links">
             Accueil
           </NavLink>
-          <NavLink className="nav-links" to="/about" activeClassName="active">
+          <NavLink to="/about" className="nav-links">
             À Propos
           </NavLink>
         </div>
       </nav>
     </header>
+    
   );
 }
 

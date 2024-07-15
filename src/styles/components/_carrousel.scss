@@ -43,3 +43,20 @@
 .fa-angle-right {
   right: 10px;
 }
+
+ @media (max-width: 768px){
+
+  .carrousel_container {
+width: 50%;
+height: 50%;
+
+      
+  }
+  @media (max-width: 450px){
+    .carrousel_container {
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    height: 240px;
+  }
+}}

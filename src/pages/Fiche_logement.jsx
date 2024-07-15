@@ -49,6 +49,9 @@ const FicheLogement = () => {
             <p className="logement_name">{logement.host.name}</p>
             <img className='logement_photo' src={logement.host.picture} alt="img profile" />  
           </div>
+
+      
+
           <div className="logement_star">
             {etoile.map((value) => (//(  // Boucle pour afficher chaque étoile et gérer le clic
               <em
