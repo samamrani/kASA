@@ -29,42 +29,15 @@
   }
 
   .accordion_content {
-    padding: 10px 15px;
-    background-color:#F6F6F6;
-    color: #000;
-    min-height: 140px;
-   
-  }
-  .accordion_content ul{
-    padding: 0;
- 
- 
-  }
-}
-
-@media (max-width: 768px) {
-  .accordion_item {
-    width: 50%;
-    height: 50%;
-    flex-direction: column;
-    .accordion_title {
-      
-      h3 {
-        font-size: 14px;
-        
-      }
-
-      span {
-        font-size: 12px;
-      }
+    padding: 15px;
+  color: black;
+    p, ul {
+      margin: 0;
     }
 
-    .accordion_content {
-      padding: 8px 10px;
+    ul {
+      padding-left: 20px; // Indentation des listes
     }
   }
 }
-@media (max-width: 450px){
- 
 
-}
